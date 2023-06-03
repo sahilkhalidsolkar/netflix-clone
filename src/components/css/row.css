@@ -1,0 +1,32 @@
+.row_posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 10px;
+}
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  object-fit: contain;
+  height: 100px;
+  margin: 6px;
+  transition: all 500ms;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.row_poster-bada {
+  object-fit: contain;
+  height: 270px;
+  margin: 6px;
+  transition: all 500ms;
+}
+.row_poster-bada:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}

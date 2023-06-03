@@ -1,0 +1,12 @@
+.videoplayer{
+    width:100vw;
+    height: 100%;
+    /* overflow: hidden;  */
+}
+.ReactModal__Body--open {
+    overflow: hidden;
+}
+.ReactModal__Overlay ,.ReactModal__Overlay--after-open{
+    background-color: rgba(17, 17, 17, 0.808)!important;
+    /* overflow: hidden;  */
+}
